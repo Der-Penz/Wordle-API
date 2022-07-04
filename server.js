@@ -158,6 +158,7 @@ app.get('/word/all', (req, res) => {
 	});
 });
 
+//start the server on the port defined in the .env
 app.listen(process.env.PORT, () =>
 	console.log('listening on Port', process.env.PORT)
 );
